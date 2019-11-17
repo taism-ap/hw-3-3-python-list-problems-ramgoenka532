@@ -12,6 +12,6 @@ def random_list(largest,size):
     n = randint(0,largest-1)
     l.append(n)
   #print the list to check
-  print(l)
+  return(l)
 #call the function
-random_list(10,10)
+l = random_list(10,10)
