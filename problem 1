@@ -30,6 +30,8 @@ if(int(number) == i)
 
 return(x)
 
+x = x+1
+
 x = find_number(l)
 
 print(x)
